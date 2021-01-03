@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FB3636"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        app:srcCompat="@drawable/contact" />
+
+    <EditText
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Login"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mot de pass"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EFE7E7"
+        android:padding="10dp"
+        android:text="SE CONNECTER"
+        app:backgroundTint="#1027D1" />
+
+</LinearLayout>
